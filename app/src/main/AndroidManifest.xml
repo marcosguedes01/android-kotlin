@@ -11,9 +11,14 @@
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity" />
         <activity android:name=".PrimeiroExemploActivity" />
-        <activity android:name=".FrasesDiaActivity" android:screenOrientation="portrait" />
-        <activity android:name=".AlcoolGasolinaActivity" android:screenOrientation="portrait" />
-        <activity android:name=".NoticiasActivity">
+        <activity
+            android:name=".FrasesDiaActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AlcoolGasolinaActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".NoticiasActivity" />
+        <activity android:name=".NetflixActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
