@@ -18,12 +18,21 @@
             android:name=".AlcoolGasolinaActivity"
             android:screenOrientation="portrait" />
         <activity android:name=".NoticiasActivity" />
-        <activity android:name=".NetflixActivity">
+        <activity android:name=".NetflixActivity" />
+        <activity
+            android:name=".AtmConsultoria.AtmConsultoriaActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".AtmConsultoria.DetalheClientesActivity" />
+        <activity android:name=".AtmConsultoria.DetalheEmpresaActivity" />
+        <activity android:name=".AtmConsultoria.DetalheServicosActivity" />
+        <activity android:name=".AtmConsultoria.DetalheContatoActivity"></activity>
     </application>
 
 </manifest>
