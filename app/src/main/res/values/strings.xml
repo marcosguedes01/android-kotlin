@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Aprendendo Kotlin</string>
+    <string name="text_clique_botao">Clique no botão</string>
+    <string name="text_jogar">Jogar</string>
+</resources>
